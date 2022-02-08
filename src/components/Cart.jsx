@@ -6,7 +6,6 @@ import Rating from "./Rating";
 
 const Cart = () => {
   const [total, setTotal] = useState(0);
-
   const {
     state: { cart },
     dispatch,
@@ -21,7 +20,6 @@ const Cart = () => {
     );
   }, [cart]);
 
-  console.log(cart);
   return (
     <div className="home">
       <div className="productContainer">
